@@ -14,7 +14,7 @@ const QuizPage = () => {
       setLoading(true);
       setError("");
 
-      const res = await fetch("http://localhost:8000/api/quiz/generate", {
+      const res = await fetch("https://lms-1kw1.onrender.com/api/quiz/generate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
