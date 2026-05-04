@@ -8,7 +8,7 @@ const Recommendations = ({ userId }) => {
     const fetchData = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:8000/api/recommendations/${userId}`
+          `https://lms-1kw1.onrender.com/api/recommendations/${userId}`
         );
         setData(res.data);
       } catch (err) {
