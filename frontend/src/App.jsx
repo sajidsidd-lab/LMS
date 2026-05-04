@@ -27,7 +27,7 @@ import SearchWithAi from './pages/SearchWithAi'
 import getAllReviews from './customHooks/getAllReviews'
 import QuizPage from "./pages/QuizPage";
 
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://lms-1kw1.onrender.com"
 
 function App() {
   
